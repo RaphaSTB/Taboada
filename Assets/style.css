@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+#title {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lbl1 {
+    color:rgb(48, 48, 48);
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 100px;
+    font-style: bold;
+    font-family: 'verdana';
+}
+
+#lbl2 {
+    color:rgb(48, 48, 48);
+    font-size: 20px;
+    font-weight: 100px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+    font-family: 'verdana';
+}
+
+#first {
+    border-radius: 5px;
+    width: 230px;
+    height: 25px;
+    padding-left: 10px;
+    border-color: rgb(48, 48, 48);
+    font-family: 'verdana';
+    border: 0;
+}
+
+#second {
+    border-radius: 5px;
+    width: 230px;
+    height: 25px;
+    padding-left: 10px;
+    border-color: rgb(48, 48, 48);
+    font-family: 'verdana';
+    border: 0;
+}
+
+#calcule {
+    margin-top: 20px;
+    background: blue;
+    color: rgb(239, 235, 228);
+    border-radius: 10px;
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 200px;
+    padding-bottom: 2px;
+    border-color: blue;
+    font-family: 'verdana';
+    border: 0;
+    cursor: pointer;
+}
+
+#resposta {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 10px;
+    color:rgb(48, 48, 48);
+    font-family: 'verdana';
+    margin-bottom: -5px;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background: rgb(239, 235, 228);
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 478px;
+    margin-top: 30px;
+}
